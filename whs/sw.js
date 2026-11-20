@@ -1,5 +1,5 @@
 // Hándicap WHS: guarda la app en el dispositivo para usarla sin conexión.
-const CACHE = 'whs-v2';
+const CACHE = 'whs-v3';
 const FILES = ["./", "index.html", "manifest.json", "icon-180.png", "icon-192.png", "icon-512.png"];
 
 self.addEventListener('install', e => {
